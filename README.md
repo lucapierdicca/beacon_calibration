@@ -27,7 +27,7 @@ The surveying of a node can be performed using 3 different modalities:
    * NLLS: non-linear least squares - the surveying is casted into a non-linear least squares problem (J.T * J + a * I)x = -J.T * b. The initial node position guess is computed by GEO. 
 
 ### calibration
-Once the initial state guess is obtained it is refined using the whole set of range measurements.
+Once the initial state guess is obtained it is refined using the whole set of range measurements. This is again seen as a NLLS problem (J.T * J + a * I)x = -J.T * b but the sparsity of the H = J.T * J matrix is exploited for the computation of the solution of the linear system (sparse Cholesky decomposition).
 
 ### results
 The results of the best performing trilateration method (NLLS) are reported and commented here.    
