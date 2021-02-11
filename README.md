@@ -28,7 +28,7 @@ Results of the best performing method (NLLS) are reported and commented here
 ![alt text](https://github.com/lucapierdicca/beacon_calibration/blob/main/Tri_NL.png)
 ![alt text](https://github.com/lucapierdicca/beacon_calibration/blob/main/Cal_NL.png)
 <p align="center">
-  <img src="https://github.com/lucapierdicca/beacon_calibration/blob/main/Chi_L.png">
+  <img src="https://github.com/lucapierdicca/beacon_calibration/blob/main/Chi_NL.png">
 </p>
 
 
