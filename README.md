@@ -23,8 +23,10 @@ The surveying of a node can be performed using 3 different modalities:
 Once the initial state guess is obtained it is refined using the whole set of range measurements.
 
 ### results
-Results of the best performing method (NLLS) are reported and commented here  
-
+The results of the best performing trilateration method (NLLS) are reported and commented here.    
+In the first row we can see the results after the trilateration is performed, in the second row are the results after the calibration and in the third row the chi square error evolution is reported.   
+Looking at the central graph it is possible to see how a refinement based on the whole set of measurements helps to uniformly reduce the euclidean error. This is particularly evident for the beacons on the borders of the grid - those beacons are surveyed using only 2 adjacent beacons. It is not possible to compare the two gray maps because they are normalized wrt to their own maximum error value, but we can clearly see the zones where the error is focused.   
+Quantitatively the maximum euclidean error is halved (from 0.25 to 0.11) and the average euclidean error is also reduced (from 0.09 to 0.06)  
 ![alt text](https://github.com/lucapierdicca/beacon_calibration/blob/main/Tri_NL.png)
 ![alt text](https://github.com/lucapierdicca/beacon_calibration/blob/main/Cal_NL.png)
 <p align="center">
