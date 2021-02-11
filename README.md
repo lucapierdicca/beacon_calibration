@@ -10,6 +10,10 @@ https://scikit-sparse.readthedocs.io/en/latest/overview.html
 <code>sudo apt-get install libsuitesparse-dev</code>  
 <code>pip install --user scikit-sparse</code>
 
+### run
+'''MODE = {'GEO','LS','NLLS'}'''
+'''python beacon_calibration_opt.py'''
+
 ### trilateration
 The GN algorithm initial state guess is obtained by iterative trilateration of the beacons starting from 3 known anchors.  
 In more details, iterative trilateration is realized leveraging on the construction of a connectivity graph G = (V,E) where each node b in V is a beacon_ID and each edge (bi_ID, bj_ID) in E represents the existence of a measurement between bi_ID and bj_ID. The graph is then visited and surveyed: for each selected beacon b it is defined a set S_b that contains all its adjacent and already surveyed beacons relevant data (position and range measurements). These data will finally be processed in differrent ways in order to localize b.  
