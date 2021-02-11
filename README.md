@@ -11,9 +11,9 @@ https://scikit-sparse.readthedocs.io/en/latest/overview.html
 <code>pip install --user scikit-sparse</code>
 
 ### run
-Choose the modality inside the script beacon_calibration_opt.py  
+choose the modality from inside the script beacon_calibration_opt.py  
 <code> MODE = {'GEO','LS','NLLS'} </code>  
-from the shell  
+and then from the shell  
 <code> python beacon_calibration_opt.py</code>
 
 ### trilateration
