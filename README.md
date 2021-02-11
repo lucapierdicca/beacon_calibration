@@ -11,8 +11,10 @@ https://scikit-sparse.readthedocs.io/en/latest/overview.html
 <code>pip install --user scikit-sparse</code>
 
 ### run
-'''MODE = {'GEO','LS','NLLS'}'''
-'''python beacon_calibration_opt.py'''
+Choose the modality inside the script beacon_calibration_opt.py  
+<code> MODE = {'GEO','LS','NLLS'} </code>  
+from the shell  
+<code> python beacon_calibration_opt.py</code>
 
 ### trilateration
 The GN algorithm initial state guess is obtained by iterative trilateration of the beacons starting from 3 known anchors.  
