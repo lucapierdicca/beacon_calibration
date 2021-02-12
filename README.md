@@ -11,7 +11,7 @@ https://scikit-sparse.readthedocs.io/en/latest/overview.html
 <code>pip install --user scikit-sparse</code>
 
 ### run
-to use a different dataset just copy the ground truth and data .dat files into the repository folder, they will be automatically converted in .csv 
+to use a different dataset just copy the ground truth and data .dat files into the repository folder, they will be automatically converted in .csv  
 then set the trilateration modality (inside beacon_calibration_opt.py)  
 <code> MODE = {'GEO','LS','NLLS'} </code>  
 and finally run the script   
